@@ -3,9 +3,11 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import ItemsList from './component/all/itemlist/index.jsx'
-import Item from './component/all/item/item.jsx'
 import ItemFormFind from './component/all/itemformfind/index.jsx'
-import Student from './component/all/student/student.jsx'
+import StudentList from './component/all/studentlist/index.jsx'
+import StudentFormFind from './component/all/studentformfind/index.jsx'
+import SubjectsList from './component/all/subjectlist/index.jsx'
+import SubjectFormFind from './component/all/subjectformfind/index.jsx'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -16,7 +18,10 @@ function App() {
         <p>
         <ItemsList/>
         <ItemFormFind/>
-        <Student id="1"/>
+        <StudentList/>
+        <StudentFormFind/>
+        <SubjectsList/>
+        <SubjectFormFind/> 
         </p>
       </div>
     </>

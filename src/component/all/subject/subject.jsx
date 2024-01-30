@@ -28,7 +28,7 @@ const Subject = ({ id }) => {
 
     if (isLoading) return <p>Loading...</p>;
     if (error) return <p>Error loading subject: {error}</p>;
-    if (!student) return <p>No subject found for id {id}</p>;
+    if (!subject) return <p>No subject found for id {id}</p>;
 
     return (
         <div>
@@ -54,4 +54,4 @@ const Subject = ({ id }) => {
     );
 };
 
-export default Student;
+export default Subject;
